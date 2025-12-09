@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap');
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+:root {
+  --font-main: 'Cinzel', serif;
+  --font-magical: 'Harry Potter', sans-serif;
+  --color-gold: #d4af37;
+  --color-dark: #0c0c0c;
+  --color-light: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
